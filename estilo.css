@@ -1,4 +1,7 @@
 
+/*Pagina Index*/
+
+/*Header*/
 header{
     background-color: black;
     color: aliceblue;
@@ -15,25 +18,51 @@ p{
     color: white;
 }
 
-footer{
+/*Footer*/
+.contentFooter {
+    max-width: 100%;
     background-color: black;
-    text-align: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-top: 2rem;
+    grid-template-areas: 
+    "infoImport" "envios" "iconos";
+}
+
+.gridinfoImport{
+    grid-area: infoImport;   
+}
+
+.gridenvios{
+    grid-area: envios;
+}
+
+.gridiconos{
+    grid-area: iconos;
+}
+
+.contentInfoFooter{
     color: white;
 }
 
-.textoFooterNumero{
-   margin-top: 15px;
+.contentEnviosFooter{
+    color: white;
 }
 
-.textoFooterMail{
-
+.contentIconosFooter{
+    color: white;
 }
 
-.textoFooterDirec{
 
+ .CopyRfooter{
+     color: white;
+     text-align: center;
+     grid-column: 2/3;
 }
 
-/*Pagina ventas*/
+/*Pagina Productos*/
 
 .card{
     margin: 5px;
@@ -49,7 +78,41 @@ h5{
     text-align: center;
 }
 
-/*Pagina ventas*/
+/*Pagina Quienes Somos*/
+
+.contendor{
+    display: flex;
+
+}
+
+.contentTexto{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.contentImagen{
+    height: 30%;
+    width: 40%;
+    padding: 25px;
+}
+
+.imagenJean{
+    height: auto;
+    width: 100%;
+}
+
+
+/*Pagina Envios*/
+
+.contenedorTexto{
+    text-align: center;
+}
+
+
+
+/*Pagina Contacto*/
 
 .buttonEnviar{
     margin: 5px;
