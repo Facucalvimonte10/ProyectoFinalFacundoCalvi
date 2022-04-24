@@ -19,6 +19,7 @@ p{
 }
 
 /*Footer*/
+/*Grid*/
 .contentFooter {
     max-width: 100%;
     background-color: black;
@@ -43,24 +44,42 @@ p{
     grid-area: iconos;
 }
 
+/*Footer*/
+
 .contentInfoFooter{
     color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 .contentEnviosFooter{
     color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 .contentIconosFooter{
     color: white;
+    
 }
-
 
  .CopyRfooter{
-     color: white;
+     color: black;
      text-align: center;
-     grid-column: 2/3;
+     grid-column: 1/4;
+     background-color: rgb(236, 233, 233);
+     padding: 15px;
+     
 }
+
+  .textoFooter{
+      text-align: center;
+      margin: 2rem;
+  }
+
+  .subtituloFooter{
+    font-size: 1.3rem;
+  }
 
 /*Pagina Productos*/
 
@@ -118,3 +137,4 @@ h5{
     margin: 5px;
     background-color: black;
 }
+
